@@ -6,7 +6,7 @@ body {
 
 @media (max-width: 1600px) {
   .header, .section {
-  	font-family: 'Arial','Times New Roman', sans-serif;
+  	font-family: 'Arial', sans-serif;
     font-size: 15px;
   }
   .bg {
@@ -16,14 +16,14 @@ body {
 
 @media (max-width: 1440px) {
   .header, .section {
-  	font-family: 'Arial','Times New Roman', sans-serif;
+  	font-family: 'Arial', sans-serif;
     font-size: 15px;
   }
 }
 
 @media (max-width: 1366px) {
   .header, .section {
-  	font-family: 'Arial','Times New Roman', sans-serif;
+  	font-family: 'Arial', sans-serif;
     font-size: 15px;
     width: 1366px ;
   }
@@ -33,7 +33,7 @@ body {
   }
 
   .map-frame {
-  	max-width: 1366px;
+  	max-width: 1920px;
   	margin: 0 auto;
   }
 
@@ -53,7 +53,6 @@ body {
   }
 
   .design-container {
-  	width: 1366px;
   	margin: 0 auto;
   }
   .awards {
@@ -72,13 +71,13 @@ body {
 
 @media (max-width: 1280px) {
   .header, .section {
-  	font-family: 'Arial','Times New Roman', sans-serif;
+  	font-family: 'Arial', sans-serif;
     font-size: 15px;
   }
 }
 
 .header {
-	font-family: 'Arial','Times New Roman', sans-serif;
+	font-family: 'Arial', sans-serif;
 	height: 76px;
 	margin: 0 auto;
 	width: 100%;
@@ -162,7 +161,7 @@ body {
 	position: absolute;
 	top: 38px;
 	left: 557px;
-	font-family: 'Arial', 'Times New Roman', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 }
@@ -347,12 +346,10 @@ body {
 .text-content {
 	text-align: center;
 	margin: 0 auto;
-	max-height: 175px;
 	max-width: 831px;
-	overflow: auto;
 	margin-bottom: 27px;
 	color: #0a274d;
-	font-family: Arial, 'Times New Roman', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-weight: 400;
 	box-sizing: border-box;
 	font-size: 14px;
@@ -439,7 +436,7 @@ body {
 
 .examples {
 	width: 1225px;
-	font-family: 'Arial', 'Times New Roman', sans-serif;
+	font-family: 'Arial', sans-serif;
 	color: #fff;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -533,39 +530,39 @@ body {
 }
 
 .green-content1 {
-	padding-left: 10px;
+	padding-left: 42px;
 	padding-right: 48px;
-	min-width: 190px;	
+	display: inline-block;
 }
 
 .green-content2 {
-	padding-left: 10px;
+	padding-left: 28px;
 	padding-right: 48px;
-	min-width: 212px;
+	display: inline-block;
 }
 
 .green-content3 {
-	padding-left: 10px;
+	padding-left: 24px;
 	padding-right: 48px;
-	min-width: 382px;		
+	display: inline-block;		
 }
 
 .green-content4 {
-	padding-right: 10px;
+	padding-right: 44px;
 	padding-left: 46px;
-	min-width: 432px;	
+	display: inline-block;	
 }
 
 .green-content5 {
-	padding-right: 10px;
+	padding-right: 32px;
 	padding-left: 46px;
-	min-width: 212px;	
+	display: inline-block;	
 }
 
 .green-content6 {
-	padding-right: 10px;
+	padding-right: 44px;
 	padding-left: 46px;
-	min-width: 233px;	
+	display: inline-block;	
 }
 
 .light-line1 {
@@ -837,7 +834,7 @@ body {
 .text-diamond {
 	max-width: 190px;
 	padding-top: 14px;
-	font-family: 'Arial', 'Times New Roman', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -850,7 +847,7 @@ body {
 	min-height: 759px;
 	text-align: center;
 	margin: 0 auto;
-	font-family: 'EuropeExt','Arial', sans-serif;;
+	font-family: 'EuropeExt','Arial', sans-serif;
 	font-weight: 700;
 }
 
@@ -900,7 +897,7 @@ body {
 .table {
 	width: 980px;
 	min-height: 200px;
-	font-family: 'Arial', 'Times New Roman', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-size: 14px;
 	border: 3px solid #d5dfec;
 	border-top: 4px solid #d5dfec;
@@ -958,13 +955,13 @@ body {
 
 .design-container {
 	width: 100%;
-	height: 472px;
+	min-height: 480px;
 	margin: 0 auto;
 	position: relative;
 	background-image: url('../images/design.jpg'); 
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
-	background-size: contain;
+	
 }
 
 .bg-design {
@@ -978,6 +975,7 @@ body {
 }
 
 .case {
+	padding-top: 30px;
 	width: 1225px;
 	font-family: 'EuropeExt','Arial', sans-serif;
 	font-weight: 700;
@@ -993,7 +991,7 @@ body {
 }
 
 .plus-minus {
-	font-family: Arial, 'Times New Roman', sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #fff;
@@ -1232,6 +1230,7 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	height: 527px;
+	padding-top: 20px;
 }
 
 .heading-awards {
@@ -1259,7 +1258,7 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 	color: #2c2783;
-	font-family: 'Arial', 'Times New Roman', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-size: 24px;
 }
 
@@ -1280,7 +1279,7 @@ body {
 
 .network {
 	height: 501px;
-	font-family: 'Arial','Times New Roman', sans-serif;
+	font-family: 'Arial', sans-serif;
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
@@ -1288,7 +1287,7 @@ body {
 
 .adress-phone {
 	width: 1225px;
-	margin: 0 auto;
+	margin: 0 auto -35px;
 	height: 199px;
 	position: relative;
 	z-index: 10;
@@ -1350,6 +1349,7 @@ body {
 .map {
 	margin: 0 auto;
     max-width: 1920px;
+
 }
 
 .map-frame {
@@ -1365,7 +1365,7 @@ body {
 	margin: 0 auto;
 	position: relative;
 	color: #fff;
-	font-family: 'Arial';
+	font-family: 'Arial', sans-serif;
 	background: #01983b url('../images/pattern.png') repeat 0 0;
 	background-image: url('../images/footer-logo-bg.png');
 	background-repeat: no-repeat;
