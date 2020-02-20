@@ -417,8 +417,6 @@ body {
 	position: relative;
 	width: 100%;
 	margin: 0 auto;
-	/*background: url('../images/city.jpg') 1049px -103px no-repeat,
-	 			url('../images/city-angle.jpg') -37px 28px no-repeat;*/
 	background-image: url('../images/building.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -590,127 +588,6 @@ body {
 	width: 42px;
 	background-color: rgba(1,152,59,0.84);
 }
-
-/*
-.green-bg1 {
-	padding-right: 48px;
-}
-
-.green-bg2 {
-	padding-left: 46px;	
-}
-
-.green-bg1::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: -47px;
-	background-color: rgba(1,152,59,0.45);
-	min-width: 47px;
-	height: 18px;
-
-}
-
-.green-bg1::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: -95px;
-	background-color: rgba(1,152,59,0.2);
-	min-width: 95px;
-	height: 18px;
-}
-
-.green-bg2::before {
-	content: '';
-	position: absolute;
-	background-color: rgba(1,152,59,0.45);
-	min-width: 47px;
-	height: 18px;
-}
-
-.green-bg2::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 95px;
-	background-color: rgba(1,152,59,0.2);
-	min-width: 95px;
-	height: 18px;
-}
-
-.instance4::before {
-	top: 0;
-	left: 432px;
-}
-
-.instance5::before {
-	top: 0;
-	left: 212px;
-}
-
-.instance6::before {
-	top: 0;
-	left: 233px;
-}
-
-.instance4::after {
-	top: 0;
-	left: 432px;
-}
-
-.instance5::after {
-	top: 0;
-	left: 212px;
-}
-
-.instance6::after {
-	top: 0;
-	left: 233px;
-}
-
-.instance1 {
-	min-width: 190px;
-	position: absolute;
-	top: 0;
-	left: 347px;
-}
-
-.instance2 {
-	min-width: 212px;
-	position: absolute;
-	top: 24px;
-	left: 325px;
-}
-
-.instance3 {
-	min-width: 382px;
-	position: absolute;
-	top: 47px;
-	left: 155px;
-}
-
-.instance4 {
-	width: 432px;
-	position: absolute;
-	top: 0;
-	left: -43px;
-}
-
-.instance5 {
-	width: 212px;
-	position: absolute;
-	top: 24px;
-	left: -43px;
-}
-
-.instance6 {
-	width: 233px;
-	position: absolute;
-	top: 47px;
-	left: -43px;
-}
-*/
 
 .logo-1project {
 	position: absolute;
@@ -1035,8 +912,6 @@ body {
 	padding-right: 23px;
 }
 
-/*content-minus*/
-
 .content-minus1 {
 	min-height: 40px;
 }
@@ -1060,8 +935,6 @@ body {
 .content-minus6 {
 	min-height: 58px;
 }
-
-/*point-minus*/
 
 .point-minus1 {
 	margin-bottom: 5px;
@@ -1119,8 +992,6 @@ body {
 	line-height: 1.18;
 }
 
-/*text-plus*/
-
 .text-plus1 {
 	padding-top: 14px;
 }
@@ -1144,8 +1015,6 @@ body {
 .text-plus6 {
 	padding-top: 11px;
 }
-
-/*text-minus*/
 
 .sad-text {
 	max-width: 296px;
@@ -1176,8 +1045,6 @@ body {
 	padding-top: 13px;
 }
 
-/*content-plus*/
-
 .content-plus1 {
 	min-height: 40px;
 }
@@ -1201,8 +1068,6 @@ body {
 .content-plus6 {
 	min-height: 58px;
 }
-
-/*point-plus*/
 
 .point-plus1 {
 	margin-bottom: 5px;
@@ -1349,7 +1214,6 @@ body {
 .map {
 	margin: 0 auto;
     max-width: 1920px;
-
 }
 
 .map-frame {
